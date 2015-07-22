@@ -1,0 +1,15 @@
+import os
+path = 'C:\\Users\\ah77133\\Desktop\\ETR Docs' #Location of files whic need to be read
+list = os.listdir(path)
+var = 0
+slice = list[var][9]
+
+def test():         #Function to print the first Character of each value in $List
+    global slice
+    global var
+    while slice != '':
+        print(slice)
+        slice = list [var][0:9]
+        var = var + 1
+       
+test()
