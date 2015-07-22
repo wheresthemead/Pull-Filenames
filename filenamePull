@@ -1,10 +1,10 @@
 import os
-path = 'C:\\Users\\ah77133\\Desktop\\ETR Docs' #Location of files whic need to be read
+path = 'C:\\Users\\ah77133\\Desktop\\ETR Docs' #Location of files which need to be read
 list = os.listdir(path)
 var = 0
 slice = list[var][9]
 
-def test():         #Function to print the first Character of each value in $List
+def test():         #Function to print the first Character of each value in the list.
     global slice
     global var
     while slice != '':
